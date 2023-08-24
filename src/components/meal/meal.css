@@ -1,0 +1,27 @@
+.meals-div{
+    margin-top: 20px;
+    display: grid;
+    width: 100%;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto auto;
+}
+.meal-div{
+    width: 70%;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.meal-div h2{
+    text-align: center;
+}
+.recipe-img{
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.recipe-img img{
+    object-fit: cover;
+}
+li{
+    list-style: none;
+}

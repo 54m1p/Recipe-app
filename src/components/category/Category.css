@@ -1,0 +1,14 @@
+.categories-div{
+    margin-top: 20px;
+    display: grid;
+    /* justify-content: space-between; */
+    /* flex-direction: row-reverse; */
+    width: 100%;
+    /* flex-wrap: wrap; */
+    gap: 50px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.category-div div{
+    text-align: center;
+}

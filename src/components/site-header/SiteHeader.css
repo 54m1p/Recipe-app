@@ -1,0 +1,36 @@
+.head-section {
+    background: #000;
+    margin-bottom: 30px;
+}
+.site-header{
+    display: flex;
+    justify-content: space-around;
+}
+.site-head{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.head-search{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    position: relative;
+}
+input#head-search {
+    width: 15em;
+    height: 2em;
+    border-radius:8px;
+}
+
+.head-search span{
+    position: absolute;
+    right: 250px;
+
+}
+
+.head-search span:hover{
+    transform: scale(1.25);
+}
